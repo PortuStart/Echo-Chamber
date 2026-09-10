@@ -1,5 +1,5 @@
 {
-  "buildCommand": "CI=false && npx expo export --platform web",
+  "buildCommand": "NODE_OPTIONS=--max_old_space_size=4096 npx expo export --platform web",
   "outputDirectory": "dist",
   "framework": null,
   "rewrites": [
