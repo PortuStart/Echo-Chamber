@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npx expo export --platform web",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": null,
   "rewrites": [
